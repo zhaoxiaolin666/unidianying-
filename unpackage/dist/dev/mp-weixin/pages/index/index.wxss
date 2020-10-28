@@ -1,0 +1,23 @@
+
+.scroll-view_H {
+	white-space: nowrap;
+}
+.scroll-view-item_H {
+	display: inline-block;
+	width: 170rpx;
+	height:200rpx;
+	padding-right: 20rpx
+}
+.name {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.center>view{
+	padding-top: 20rpx;
+}
+ .uni-scroll-view::-webkit-scrollbar {
+/* 隐藏滚动条，但依旧具备可以滚动的功能 */
+display: none
+}
+
